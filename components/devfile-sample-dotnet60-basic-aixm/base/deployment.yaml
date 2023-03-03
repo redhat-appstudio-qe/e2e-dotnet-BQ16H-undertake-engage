@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dotnet60-basic-aixm
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images-protected:BQ16H-devfile-sample-dotnet60-basic-aixm
+      - image: quay.io/redhat-appstudio-qe/test-images-protected@sha256:945f9c6efba6a74c1347b6a37428bb10832b94da30a39ab9d7709314c9d39390
         imagePullPolicy: Always
         name: main
         ports:
